@@ -1,16 +1,13 @@
 
 
-def fun1(name):
+
+def inator(name):
     woc = ("a", "e", "i", "o", "u")
-    if name.endswith(woc):    
-        result = name, "inator", str(len(name)), "000"
-        print("inatorInator", "(", name + ")", " -> ", result)
+    if name.endswith(woc):
+        print("inatorInator" + "('" + name + "')", " ->", name + "inator", len(name))
     else:
-        result = name,"-inator", str(len(name)), "000"
-        print("inatorInator", "(", name, ")", " -> ", result)
+        print("inatorInator" + "('" + name + "')", " ->", name + "-inator")
 
-def run(): 
-    name = input(str("enter something: "))  
-    fun1(name)    
+name = input("Enter a name: ")
 
-run()
+inator(name)
