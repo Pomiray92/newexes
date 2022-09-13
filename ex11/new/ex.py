@@ -1,7 +1,5 @@
 import re
 
-finding = "[a - K] + @"
-
 text = """
 Hey Mr. Bezos,
 
@@ -23,8 +21,11 @@ password
 Kind regards,
 the soon to be fired secretary Tanisha"""
 
+finding = r"(\w+@\w+.\w+)"
 
-if(re.search(finding, text)):
-    print()
+
+if re.search(finding, text):
+    result = re.search(finding, text)
+    print(result)
 else:
-    print("some")
+    print("Nothing to find")
