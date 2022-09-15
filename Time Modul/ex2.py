@@ -6,8 +6,11 @@ def print_slow(str):
         sys.stdout.write(letter)
         sys.stdout.flush()
         time.sleep(0.1)
+        
+print()
 
-userimp = int(input("Take a number: "))
+userimp = int(input(print_slow("Take a number: ")))
+
 
 mash_time = time.time()
 humtime = time.ctime(mash_time)
@@ -24,7 +27,7 @@ start_time = time.time()
 if userimp > 0:
     for i in range(userimp, 0, -1):
         time.sleep(0.5)
-        print(i)
+        print("###",i,"###")
 
 stop_time = time.time()
 
@@ -40,4 +43,7 @@ count_time = (stop_time - start_time)
 
 time.sleep(0.5)
 print_slow("Countdown Time: ")
-print_slow(str(count_time))        
+print_slow(str(count_time))
+
+print()
+print()         
