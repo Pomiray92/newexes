@@ -1,6 +1,6 @@
 import datetime
-from datetime import *
-# import calendar
+#from datetime import *
+#import calendar
 
 # # Task 1
 
@@ -53,9 +53,9 @@ from datetime import *
 
 # Task 7 
 
-user_inp = input("Type the time of moving: Mmm dd jjjj: ")
+user_inp = input("Type the time of moving: Month day Year: ")
 
-string_as_date = datetime.strptime(user_inp,"%b %d %Y")
+string_as_date = datetime.datetime.strptime(user_inp,"%B %d %Y")
 
 day_of_pay = string_as_date + datetime.timedelta(days=25)
 
