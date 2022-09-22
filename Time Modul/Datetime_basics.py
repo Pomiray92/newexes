@@ -63,4 +63,4 @@ import datetime
 
 # print("Hello Friedrich, your rent of 300 € is due on:", day_of_pay)
 
-print(240.5 / 12)
+print(240.5 / 30.25)
