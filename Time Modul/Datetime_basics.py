@@ -41,6 +41,8 @@ import datetime
 
 # sub_days = current_datetime - datetime.timedelta(days=15)
 
+# sub_days2 = datetime.strptime(sub_days)
+
 # print(sub_days)
 
 # Task 6
@@ -53,10 +55,12 @@ import datetime
 
 # Task 7 
 
-user_inp = input("Type the time of moving: Month day Year: ")
+# user_inp = input("Type the time of moving: dd mm Year: ")
 
-string_as_date = datetime.datetime.strptime(user_inp,"%B %d %Y")
+# string_as_date = datetime.datetime.strptime(user_inp,"%d %m %Y")
 
-day_of_pay = string_as_date + datetime.timedelta(days=25)
+# day_of_pay = string_as_date + datetime.timedelta(days=25)
 
-print("Hello Friedrich, your rent of 300 € is due on:", day_of_pay)
+# print("Hello Friedrich, your rent of 300 € is due on:", day_of_pay)
+
+print(240.5 / 12)
