@@ -42,5 +42,3 @@ import os
 # print(f"Age in Days: {(datetime.today() - b_day).days//12}")
 
 
-
-print(365/12)

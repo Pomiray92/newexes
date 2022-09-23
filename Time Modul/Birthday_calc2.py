@@ -58,5 +58,5 @@ if question == "yes":
        time.sleep(0.5)       
 else:
     time.sleep(0.5)
-    print("No Brother i dont now coding anymore today! See you!")
+    print("See you!")
     print()
