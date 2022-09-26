@@ -1,13 +1,16 @@
-from datetime import datetime
+from datetime import date, datetime
 import os, sys
 import time
 os.system("clear")
+    
 
 def print_slow(string):
     for letter in string:      # for each letter in the string
         sys.stdout.write(letter)        # prints out letter
         sys.stdout.flush()              # flushes the line ()
         time.sleep(0.2)
+
+
 
 #user_birth = input("Enter Your Birthday: dd mm yyyy: ")
 user_birth = "25 01 1992"
