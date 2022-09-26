@@ -56,7 +56,7 @@ if question == "yes":
    print()
    time.sleep(0.5)
    if last_question == "yes":
-       print(("No Brother i dont now coding anymore today! See you!"))
+       print(("No Brother i dont want coding anymore today! See you!"))
 
        time.sleep(0.5)       
 else:
