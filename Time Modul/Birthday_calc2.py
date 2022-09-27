@@ -12,8 +12,8 @@ def print_slow(string):
 
 
 
-#user_birth = input("Enter Your Birthday: dd mm yyyy: ")
-user_birth = "25 01 1992"
+user_birth = input("Enter Your Birthday: dd mm yyyy: ")
+#user_birth = "25 01 1992"
 convert_date = datetime.strptime(user_birth, "%d %m %Y")
 
 year = (datetime.today() - convert_date).days//365.25
