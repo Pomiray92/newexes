@@ -1,4 +1,3 @@
-import time
 
 # def full_name(**kwargs):
 #     print(kwargs)
@@ -30,15 +29,14 @@ import time
 # print(full_name())
     
 
-
-
-
 # def full_name(first_name = input("What is your first name?: ")):
 #     """
     
 #     """
 #     # first_name 
 #     print(first_name)
+
+
 
 last_name = {
     "First_Name": "Joe",
@@ -52,9 +50,9 @@ def full_name(last_name):
     last_name["Last_name"] = "Hoffman"
     return last_name
 
-time.sleep(0.5)
+
 print(last_name)
-time.sleep(0.5)
+
 print(full_name(last_name))
-time.sleep(0.5)
+
 print(last_name)
